@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Worker Bee</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+ <div class="navbar navbar-default navbar-fixed-top">
+     <div class="container">
+     	 <div class="navbar-header">
+     	 	 <button class="navbar-toggle" data-toggle="collapse" datatarget=".navbar-collapse">
+     	 	 	 <span class="icon-bar"></span>
+     	 	 	 <span class="icon-bar"></span>
+     	 	 	 <span class="icon-bar"></span>
+     	 	 </button>
+     	 	 <a class="navbar-brand">Worker Bee</a>
+     	 </div>
+
+     	 <div class="collapse navbar-collapse">
+     	 	 <form class="navbar-form navbar-right">
+     	 	 	 <div class="form-group">
+     	 	 	 	 <input type="email" placeholder="Email" class="form-control" />
+     	 	 	 </div>
+     	 	 	 <div class="form-group">
+     	 	 	 	 <input type="password" placeholder="Password" class="form-control" />
+     	 	 	 </div>
+     	 	 	 <button type="submit" class="btn btn-success">Log In</button>
+     	 	 </form>
+              <ul class="nav navbar-nav navbar-left">
+                   <li class="active"><a href="#topContainer">Home</a></li>
+                   <li><a href="#detail1">About</a></li>
+                   <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                             <li><a href="#">Action</a></li>
+                             <li><a href="#">Another action</a></li>
+                             <li><a href="#">Something else here</a></li>
+                             <li role="separator" class="divider"></li>
+                             <li><a href="#">Separated link</a></li>
+                             <li role="separator" class="divider"></li>
+                             <li><a href="#">One more separated link</a></li>
+                         </ul>
+                  </li>
+              </ul>
+     	 </div>
+     </div>
+ </div>
+
+ <div class="container contentContainer" id="topContainer">
+      <div class="row">
+           <div class="col-md-6 col-md-offset-3" id="topRow">
+                
+          </div>
+      </div>
+ </div>
+
+
+ <div class="container contentContainer" id="detail1">
+      <div class="row center">
+      	 <h1 class="center title">Repairing Bee</h1>
+      </div>
+     <div class="row marginBottom">
+      	<div class="col-md-5 marginTop">
+      	 	<h2><span class="glyphicon glyphicon-wrench"></span> Repairs </h2>
+      	 	<p>A brief description of one of the best features of your app. Maybe a little more text. A brief description of one of the best features of our app. Maybe a little more text.</p>
+      	 	<button class="btn btn-success marginTop">Sign Up!</button>
+          </div>
+          <div class="col-md-7 marginTop">
+      	 	<h2><span class="glyphicon glyphicon-off"></span> Cleaning </h2>
+      	 	<p>A brief description of one of the best features of your app. Maybe a little more text. A brief description of one of the best features of your app. Maybe a little more text.</p>
+      	 	<button class="btn btn-success marginTop">Sign Up!</button>
+          </div>
+     </div>
+ </div>
+
+ <div class="container contentContainer" id="detail2">
+      <div class="row center">
+          <h1 class="center title">Cleaning Bee</h1>
+      </div>
+     <div class="row marginBottom">
+         <div class="col-md-7 marginTop">
+              <h2><span class="glyphicon glyphicon-clean"></span> Cleaning </h2>
+              <p>A brief description of one of the best features of your app. Maybe a little more text. A brief description of one of the best features of our app. Maybe a little more text.</p>
+              <button class="btn btn-success marginTop">Sign Up!</button>
+          </div>
+          <div class="col-md-5 marginTop">
+              <h2><span class="glyphicon glyphicon-off"></span> Cleaning </h2>
+              <p>A brief description of one of the best features of your app. Maybe a little more text. A brief description of one of the best features of your app. Maybe a little more text.</p>
+              <button class="btn btn-success marginTop">Sign Up!</button>
+          </div>
+     </div>
+ </div>
+
+ <div class="container contentContainer" id="footer">
+      <div class="row">
+      	 <h1 class="center title">Download The App!</h1>
+      	 <p class="lead center">Really, why should I download this app?</p>
+      	 <p class="center"><img src="img/appstore.png" class="appstoreImage" style="border-radius: 7px;" /></p>
+      </div>
+ </div>
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files asneeded -->
+ <script src="js/bootstrap.min.js"></script>
+
+ <script> $(".contentContainer").css("min-height",$(window).height()); </script>
+</body>
+</html>
